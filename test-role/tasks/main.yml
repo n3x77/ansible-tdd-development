@@ -3,3 +3,10 @@
 - name: Molecule Hello World!
   debug:
     msg: Hello, World!
+
+- name: APT | Install vim
+  apt:
+    name: vim
+    state: latest
+    update_cache: yes
+  become: true
