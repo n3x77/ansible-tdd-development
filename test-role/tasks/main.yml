@@ -1,2 +1,5 @@
 ---
 # tasks file for test-role
+- name: Molecule Hello World!
+  debug:
+    msg: Hello, World!
